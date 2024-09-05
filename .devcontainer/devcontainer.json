@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/java-postgres
+{
+	"name": "PillArc-backend",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  
+	// Add features for Maven and Java (Spring Boot).
+	"features": {
+	},
+  
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [5432],
+  
+	// Run Spring Boot commands after the container is created.
+	"postCreateCommand": "mvn clean install",
+  
+	// Configure tool-specific properties.
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+			"vscjava.vscode-java-pack",
+			"pivotal.vscode-spring-boot",
+			"eamodio.gitlens", 
+			"GitHub.copilot",
+			"Postman.postman-for-vscode",
+			"vmware.vscode-boot-dev-pack"
+		]
+	  }
+	},
+  
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "nickghule"
+  }
+  
