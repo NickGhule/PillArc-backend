@@ -1,0 +1,77 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.java~
+
+# Spring Boot
+spring-boot-maven-plugin
+target/
+build/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.vscode/
+*.project
+*.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.log
+
+# Maven
+.mvn/
+!**/src/main/resources/
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Logs
+*.log
+*.out
+*.pid
+*.gz
+*.zip
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Database
+*.sql
+*.sqlite
+
+# Environment Files
+.env
+*.env
+
+# Maven Wrapper
+.mvn/wrapper/mvnw
+.mvn/wrapper/mvnw.cmd
+
+# Kubernetes
+.kubectl/
+*.yaml
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Other
+*.class
+*.db
+*.sublime-workspace
+*.sublime-project
