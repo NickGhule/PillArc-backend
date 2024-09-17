@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: pillarc-backend
+    
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pillarc?currentSchema=pillarc_backend
+    username: pillarc_backend_client
+    password: pillarc_backend_client
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        default_schema: pillarc_backend
+        format_sql: true
