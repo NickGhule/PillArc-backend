@@ -25,7 +25,8 @@
 			"eamodio.gitlens", 
 			"GitHub.copilot",
 			"Postman.postman-for-vscode",
-			"vmware.vscode-boot-dev-pack"
+			"vmware.vscode-boot-dev-pack",
+			"ms-ossdata.vscode-postgresql"
 		]
 	  }
 	},
